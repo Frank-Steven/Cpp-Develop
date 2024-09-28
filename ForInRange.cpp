@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 template <typename _Ty, typename Func>
-constexpr void for_r(_Ty s, _Ty e, Func f) {
+constexpr void for_r(_Ty s, _Ty e, const Func &f) {
     _Ty i;
     if (s < e) {
         for (i = s; i <= e - 4; i += 4) {
@@ -24,7 +24,9 @@ constexpr void for_r(_Ty s, _Ty e, Func f) {
 int main() {
     for_r(1,10,[&](int i) {
         for_r(1,10,[&](int j) {
+            cout << i*j << " ";
         });
+        cout << "\n";
     });
     return 0;
 }
