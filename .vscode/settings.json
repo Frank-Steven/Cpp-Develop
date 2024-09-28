@@ -1,0 +1,14 @@
+{
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 21,
+    "editor.fontFamily": "'Cascadia Code' ,Consolas, 'Courier New', '等线' , monospace",
+    "editor.fontLigatures": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

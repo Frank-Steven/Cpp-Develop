@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Launch-C++",
+			"command": "C:/SysGCC/mingw64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/output/${fileBasenameNoExtension}.exe",
+				"-Wall",
+				"-Wshadow",
+				"-Wconversion",
+				"-Wextra" 
+			],
+			"options": {
+				"cwd": "C:/SysGCC/mingw64/bin" 
+			},
+			"problemMatcher": [
+				"$gcc" 
+			],
+			"group": "build",
+			"detail": "编译器: C:/SysGCC/mingw64/bin/g++.exe" 
+		}
+	]
+}
