@@ -13,12 +13,12 @@ struct SegTree {
         rs = new SegTree(mid+1,r,init);
         seg = Seg::merge(ls->seg,rs->seg);
     }
-    void release() {
+    constexpr void release() {
         if(ls) ls->recieve(tag);
         if(rs) rs->recieve(tag);
         tag = Tag();
     }
-    void recieve(const Tag &x) {
+    constexpr void recieve(const Tag &x) {
         seg.apply(x);
         tag = Tag::merge(tag,x);
     }
