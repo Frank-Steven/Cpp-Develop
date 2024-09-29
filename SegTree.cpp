@@ -22,7 +22,7 @@ struct SegTree {
         seg.apply(x);
         tag = Tag::merge(tag,x);
     }
-    void modify(int s, int e, const tag &x) {
+    void modify(int s, int e, const Tag &x) {
         if(s <= l && r <= e) { recieve(x); return; }
         release();
         if(s <= mid) ls->modify(s,e,x);
