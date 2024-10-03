@@ -11,8 +11,8 @@
                 "_UNICODE" 
             ],
             "cStandard": "c17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "windows-gcc-x64",
             "mergeConfigurations": false,
             "compilerPath": "C:/SysGCC/mingw64/bin/g++.exe",
             "browse": {
